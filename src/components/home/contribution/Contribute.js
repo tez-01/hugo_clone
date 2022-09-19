@@ -13,11 +13,11 @@ const Contribute = () => {
           <h1>We welcome all contributions</h1>
           <p>
             Fork the repo and work on an issue
-            <img src="./images/hyperlink.png" alt="" />
+            <img src="./images/hyperlink.png" alt="img" />
           </p>
           <p>
             Design a theme
-            <img src="./images/hyperlink.png" alt="" />
+            <img src="./images/hyperlink.png" alt="img" />
           </p>
         </div>
 
@@ -30,11 +30,11 @@ const Contribute = () => {
           <h1>More ways to contribute</h1>
           <p>
             Help improve the docs
-            <img src="./images/hyperlink.png" alt="" />
+            <img src="./images/hyperlink.png" alt="img" />
           </p>
           <p>
             Help others in the forums
-            <img src="./images/hyperlink.png" alt="" />
+            <img src="./images/hyperlink.png" alt="img" />
           </p>
         </div>
       </div>

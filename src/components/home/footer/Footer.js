@@ -30,7 +30,7 @@ const Footer = () => {
               <a href={footerCode}>@bepsays</a>
             </div>
             <div className="img-bx">
-              <img src="images/footer_infinity.jpg" alt="" />
+              <img src="images/footer_infinity.jpg" alt="img" />
             </div>
           </div>
           
@@ -40,7 +40,7 @@ const Footer = () => {
       <img
             src="images/beaver_img2.png"
             className="bev-2"
-            alt=""
+            alt="img"
             style={{ width: "130px" }}
           />
         <p>The Hugo logos are copyright © Steve Francia 2013-2022.</p>

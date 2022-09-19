@@ -10,7 +10,7 @@ const Benefits = () => {
           return (
             <div className="mapData">
               <div className="imgee">
-                <img src={value.imge} alt="" />
+                <img src={value.imge} alt="icon" />
               </div>
               <div className="mapText">
                 <h1>{value.boldHead}</h1>

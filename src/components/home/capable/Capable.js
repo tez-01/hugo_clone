@@ -15,7 +15,7 @@ const Capable = () => {
           <a href={url}> Get Started.</a>
         </div>
         <div className="img-box">
-          <img src="./images/capable_img1.jpg" alt="" />
+          <img src="./images/capable_img1.jpg" alt="img" />
         </div>
       </div>
     </section>

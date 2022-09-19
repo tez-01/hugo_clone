@@ -7,7 +7,7 @@ const Theme = () => {
     <section className="theme">
       <div className="container grid">
         <div className="img-box">
-          <img src="./images/port_img1.jpg" alt="" />
+          <img src="./images/port_img1.jpg" alt="img" />
         </div>
         <div className="text-box">
           <h1>300+ Themes</h1>

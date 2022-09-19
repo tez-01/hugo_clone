@@ -23,7 +23,7 @@ const Sponsor = () => {
           return (
             <div className="subBox">
               <div className="subBox1">
-                <img src={value.img} alt="" />
+                <img src={value.img} alt="img" />
               </div>
             </div>
           );

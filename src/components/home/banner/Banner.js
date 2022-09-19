@@ -8,7 +8,7 @@ const Banner = () => {
       <section className="banner">
         <div className="container box">
           <div className="content-box">
-            <img src="images/hugo.png" alt="" />
+            <img src="images/hugo.png" alt="img" />
             <div className="search-bx">
               <SearchOutlinedIcon className="Search-ico" />
               <input type="text" placeholder="Search the Docs" />
