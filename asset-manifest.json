@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hugo_clone/static/css/main.cb45d231.css",
+    "main.js": "/hugo_clone/static/js/main.b58ea5b6.js",
+    "static/js/787.513a1c5b.chunk.js": "/hugo_clone/static/js/787.513a1c5b.chunk.js",
+    "index.html": "/hugo_clone/index.html",
+    "main.cb45d231.css.map": "/hugo_clone/static/css/main.cb45d231.css.map",
+    "main.b58ea5b6.js.map": "/hugo_clone/static/js/main.b58ea5b6.js.map",
+    "787.513a1c5b.chunk.js.map": "/hugo_clone/static/js/787.513a1c5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb45d231.css",
+    "static/js/main.b58ea5b6.js"
+  ]
+}
