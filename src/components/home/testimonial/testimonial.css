@@ -1,0 +1,96 @@
+.testimonial {
+  width: auto;
+  height: auto;
+  background-color: rgba(10, 174, 119, 0.938);
+  padding: 10rem 4rem 9rem 4rem;
+}
+.testimonial .t-head {
+  width: 100%;
+  position: relative;
+  font-weight: 300;
+  font-size: 32px;
+  color: #fefff7;
+  letter-spacing: 0.5px;
+}
+.testimonial .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.testimonial .test-box {
+  width: 95%;
+  background-color: #fefff7;
+  padding: 2rem 2.7rem;
+  margin: 1rem 0;
+}
+.testimonial .test-box p {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+.testimonial .test-box span {
+  color: rgb(255, 0, 200);
+  font-weight: 300;
+  cursor: pointer;
+}
+.testimonial .test-box span a {
+  text-decoration: none;
+  color: rgb(255, 0, 200);
+}
+.testimonial .test-box h5 {
+  font-size: 13px;
+  font-weight: 300;
+  padding-bottom: 0.3rem;
+  letter-spacing: 0.5px;
+}
+.testimonial .test-box h6 {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 0.7rem;
+  color: rgb(43, 171, 226);
+}
+
+@media (max-width: 900px) {
+  .testimonial {
+    padding: 6rem 4rem 4rem 4rem;
+  }
+  .testimonial .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .testimonial .t-head {
+    font-weight: 300;
+    font-size: 28px;
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 709px) {
+  .testimonial {
+    padding: 5rem 4rem 3rem 4rem;
+  }
+  .testimonial .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .testimonial .t-head {
+    font-weight: 300;
+    font-size: 28px;
+    padding-bottom: 1rem;
+  }
+  .testimonial .test-box p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .testimonial .test-box p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+}
+@media (max-width: 389px) {
+  .testimonial {
+    width: auto;
+    padding: 2rem;
+  }
+}

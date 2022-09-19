@@ -1,0 +1,85 @@
+.contribution {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 6rem 0;
+}
+.contribution .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  width: 90%;
+}
+.contribution .git-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.contribution .container-box {
+  margin: 0 auto;
+}
+
+.contribution .container-box h1 {
+  font-size: 26px;
+  font-weight: 500;
+  color: rgb(255, 0, 76);
+  padding-bottom: 0.5rem;
+}
+.contribution .container-box p {
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding: 0rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.4;
+}
+.contribution .container-box img {
+  height: 14px;
+}
+.contribution .container-boxCenter {
+  width: 70%;
+  margin: 0 auto;
+}
+.contribution .container-boxCenter p {
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding: 0 0.5rem;
+  line-height: 1.4;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+.contribution .container-boxCenter img {
+  height: 14px;
+  padding-left: 0.3rem;
+}
+@media (max-width: 979px) {
+  .contribution {
+    padding: 5rem 0;
+  }
+  .contribution .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    text-align: center;
+    width: 90%;
+  }
+}
+@media (max-width: 459px) {
+  .contribution {
+    padding: 3rem 0;
+  }
+  .contribution .container-box h1 {
+    font-size: 5.2vw;
+    font-weight: 500;
+    color: rgb(255, 0, 76);
+    padding-bottom: 0.5rem;
+  }
+  .contribution .container-box p {
+    font-size: 3.7vw;
+  }
+  .contribution .container-boxCenter p {
+    font-size: 3.7vw;
+  }
+}

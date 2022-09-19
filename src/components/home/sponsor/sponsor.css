@@ -1,0 +1,61 @@
+.sponsor {
+  height: auto;
+}
+.sponsor .box1 {
+  width: 100%;
+  min-height: 45vh;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sponsor .subBox {
+  display: inline-flex;
+  min-width: 33.3%;
+}
+.sponsor .subBox .subBox1 {
+  height: 20vh;
+  width: 90%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 6px;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+.sponsor .subBox .subBox1 img {
+  height: 40%;
+  transition: 0.3s ease-in;
+}
+.sponsor .subBox .subBox1 img:hover {
+  height: 44%;
+  cursor: pointer;
+}
+.sponsor .text {
+  position: absolute;
+  left: 2rem;
+  top: 40px;
+  color: rgb(240, 240, 240);
+}
+@media (max-width: 950px) {
+  .sponsor {
+    height: auto;
+    padding: 6rem 0;
+  }
+  .sponsor .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem 0;
+  }
+  .sponsor .text {
+    position: absolute;
+    top: -3rem;
+    left: 4rem;
+    margin-bottom: 2rem;
+    color: rgb(240, 240, 240);
+  }
+}

@@ -1,0 +1,71 @@
+.showcase {
+  width: auto;
+  height: 70vh;
+  background-color: rgb(243, 243, 243);
+  padding: 3rem 0;
+  overflow: hidden;
+}
+.showcase .sideMargin {
+  margin: 0 2rem;
+  cursor: pointer;
+}
+.showcase .posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.showcase .posters .inner-img {
+  width: 550px;
+  height: 250px;
+  padding-right: 25px;
+}
+.showcase .main-head {
+  padding-left: 2rem;
+  padding-bottom: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 44px;
+  color: black;
+}
+.showcase .posters .inner-img {
+  cursor: pointer;
+}
+.showcase .posters .inner-text {
+  position: relative;
+}
+.showcase .posters .inner-poster {
+  position: relative;
+}
+.showcase .posters .inner-poster h3 {
+  position: absolute;
+  top: 200px;
+  z-index: 10;
+  color: white;
+  opacity: 0;
+  width: 525px;
+  height: 75px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 10px 0px -4px #494949;
+  padding-left: 1.5rem;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.showcase .posters .inner-poster:hover h3 {
+  opacity: 1;
+  transition: ease-in-out 1.5s;
+  padding-bottom: 10px;
+}
+.showcase .showcase-btn {
+  float: right;
+  margin: 2rem 0.5rem;
+  background-color: var(--primary-color);
+}
+.showcase .showcase-btn:hover {
+  background-color: rgb(53, 157, 214);
+}
+@media (max-width: 409px) {
+  .showcase {
+    width: auto;
+    height: auto;
+  }
+}

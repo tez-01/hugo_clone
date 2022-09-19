@@ -1,0 +1,119 @@
+.installation {
+  height: auto;
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 1rem 0 3rem 0;
+}
+.installation .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/*
+  .installation .Flex {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  */
+
+.installation .install-content {
+  width: 80%;
+  height: 500px;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.installation .install-content h1 {
+  font-weight: 500;
+  font-size: 34px;
+  text-align: center;
+  padding: 0 2.9rem;
+  padding-bottom: 1.6rem;
+  letter-spacing: 0.7px;
+  color: rgb(63, 63, 63);
+}
+.installation .install-content h2 {
+  font-weight: 300;
+  font-size: 24px;
+  padding: 0 3rem;
+  text-align: center;
+  padding-bottom: 1.4rem;
+  color: rgb(125, 125, 125);
+  letter-spacing: 0.5px;
+}
+.installation .install-content h3 {
+  font-weight: 300;
+  font-size: 22px;
+  padding: 0 4rem;
+  text-align: center;
+  padding-bottom: 1.8rem;
+  color: rgb(125, 125, 125);
+  letter-spacing: 0.5px;
+}
+.installation .install-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.installation .install-img .bev-img {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 1rem;
+}
+.installation .install-img .box-i {
+  min-width: 160px;
+  width: 45%;
+  min-height: 50px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(73, 212, 251);
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.installation .install-img .box-i p {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  padding: 0 1rem;
+}
+.installation .install-img h5 {
+  text-align: center;
+  padding: 1rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: rgb(125, 125, 125);
+  font-size: 14px;
+}
+.installation .install-img a {
+  padding: 1rem;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+  color: rgb(52, 176, 230);
+  padding-top: 1.5rem;
+}
+.installation .install-img a:hover {
+  color: rgb(125, 200, 232);
+}
+@media (max-width: 709px) {
+  .installation .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 409px) {
+  .installation {
+    height: auto;
+    width: 100%;
+  }
+}

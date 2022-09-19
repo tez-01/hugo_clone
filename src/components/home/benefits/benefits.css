@@ -1,0 +1,115 @@
+.Benefits {
+  background-color: rgb(249, 249, 249);
+  width: 100%;
+  height: auto;
+  padding: 6rem 0;
+}
+.Benefits .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  grid-gap: 7rem 0;
+}
+.Benefits .mapData {
+  display: flex;
+
+  width: 89%;
+  margin: 0 auto;
+}
+.Benefits .imgee img {
+  margin: 1rem;
+  height: 60px;
+}
+.Benefits .mapText {
+  max-width: 90%;
+  line-height: 1.6;
+}
+.Benefits h1 {
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 0.2px;
+  margin-bottom: 0.2rem;
+  color: rgb(137, 135, 135);
+}
+.Benefits h4 {
+  font-size: 1.5vw;
+  font-weight: 400;
+  color: rgb(75, 170, 214);
+  letter-spacing: 0.2px;
+}
+.Benefits p {
+  font-size: 1.1vw;
+  font-weight: 300;
+  color: rgb(104, 95, 95);
+  letter-spacing: 0.2px;
+}
+@media (max-width: 1200px) {
+  .Benefits h1 {
+    font-size: 16px;
+  }
+  .Benefits h4 {
+    font-size: 1.8vw;
+    font-weight: 400;
+  }
+  .Benefits p {
+    font-size: 1.5vw;
+    font-weight: 300;
+  }
+}
+@media (max-width: 1100px) {
+  .Benefits h1 {
+    font-size: 15px;
+  }
+  .Benefits h4 {
+    font-size: 2vw;
+    font-weight: 400;
+  }
+  .Benefits p {
+    font-size: 1.9vw;
+    font-weight: 300;
+  }
+}
+@media (max-width: 800px) {
+  .Benefits {
+    padding: 5rem 0;
+  }
+  .Benefits h1 {
+    font-size: 15px;
+  }
+  .Benefits h4 {
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  .Benefits p {
+    font-size: 2.4vw;
+    font-weight: 300;
+  }
+  .Benefits .imgee img {
+    margin: 1rem;
+    height: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .Benefits {
+    padding: 2rem 0;
+  }
+  .Benefits h1 {
+    font-size: 15px;
+  }
+  .Benefits h4 {
+    font-size: 4vw;
+    font-weight: 400;
+  }
+  .Benefits p {
+    font-size: 3.4vw;
+    font-weight: 300;
+  }
+  .Benefits .imgee img {
+    margin: 0 1rem 0 0;
+    height: 35px;
+  }
+  .Benefits .mapText {
+    max-width: 90%;
+    line-height: 1.5;
+  }
+}

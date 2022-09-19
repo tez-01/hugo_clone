@@ -1,0 +1,164 @@
+.banner {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.banner .content-box img {
+  width: 40%;
+  margin-bottom: 30px;
+}
+.banner .content-box h2 {
+  font-weight: 400;
+  font-size: 3vw;
+  color: whitesmoke;
+}
+.banner .content-box p {
+  line-height: 1.4;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin: 20px 0;
+  font-size: 1.4vw;
+  color: var(--secondary-fontS);
+}
+.banner .search-bx {
+  width: 380px;
+  height: 45px;
+  margin: 0 auto;
+  position: relative;
+  border: 2px solid var(--secondary-fontS);
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.banner .search-bx input {
+  width: 320px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-left: 25px;
+  overflow: hidden;
+  background-color: transparent;
+  color: var(--secondary-fontS);
+}
+.Search-ico {
+  position: absolute;
+  left: 6px;
+  top: 7px;
+  color: white;
+  font-size: 2rem;
+}
+.banner .search-bx input::placeholder {
+  font-size: 16px;
+  margin: auto 0;
+  color: var(--secondary-fontS);
+}
+.banner .inner-box {
+  max-width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.box {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  min-width: 480px;
+}
+.content-box {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 1025px) {
+  .banner .content-box img {
+    width: 38%;
+  }
+  .banner .content-box h2 {
+    font-size: 3.5vw;
+  }
+  .banner .content-box p {
+    font-size: 1.6vw;
+  }
+  .banner .search-bx {
+    width: 340px;
+    height: 45px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid var(--secondary-fontS);
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  .banner .search-bx input {
+    width: 280px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-left: 25px;
+    overflow: hidden;
+    background-color: transparent;
+    color: var(--secondary-fontS);
+  }
+}
+@media (max-width: 769px) {
+  .banner .content-box img {
+    width: 58%;
+  }
+  .banner .content-box h2 {
+    font-size: 5vw;
+  }
+  .banner .content-box p {
+    font-size: 2.5vw;
+  }
+  .banner .search-bx {
+    width: 320px;
+    height: 45px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid var(--secondary-fontS);
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  .banner .search-bx input {
+    width: 260px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-left: 25px;
+    overflow: hidden;
+    background-color: transparent;
+    color: var(--secondary-fontS);
+  }
+}
+@media (max-width: 500px) {
+  .banner .content-box img {
+    width: 58%;
+  }
+  .banner .content-box h2 {
+    font-size: 5vw;
+  }
+  .banner .content-box p {
+    font-size: 3.6vw;
+  }
+  .banner .search-bx {
+    width: 320px;
+    height: 45px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid var(--secondary-fontS);
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  .banner .search-bx input {
+    width: 260px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-left: 25px;
+    overflow: hidden;
+    background-color: transparent;
+    color: var(--secondary-fontS);
+  }
+}
